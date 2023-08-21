@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a219ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: #ffffffd1;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px #cb46e2;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.question {
+    margin-top: 35px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.option {
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#submit-answer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #a128b6;
+    color: #fffffff1;
+    border: none;
+    border-radius: 16px;
+    padding: 15px 50px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+#submit-answer:hover {
+    background-color: #000000;
+}
